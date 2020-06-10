@@ -14,3 +14,4 @@ siege example.com
 ```bash
 siege -c 100 example.com
 ```
+> default is 10
