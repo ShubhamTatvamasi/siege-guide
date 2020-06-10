@@ -10,7 +10,7 @@ start load testing
 siege example.com
 ```
 
-20 concurrent users
+100 concurrent users
 ```bash
-siege -c 20 example.com
+siege -c 100 example.com
 ```
