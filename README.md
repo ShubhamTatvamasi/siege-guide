@@ -20,3 +20,4 @@ update the concurrent users limit to 500
 ```bash
 sed -i 's/^limit.*/limit = 500/' siege.conf
 ```
+> file location: `~/.siege/siege.conf`
