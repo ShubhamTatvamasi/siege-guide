@@ -21,3 +21,8 @@ update the concurrent users limit to 500
 sed -i 's/^limit.*/limit = 500/' siege.conf
 ```
 > file location: `~/.siege/siege.conf`
+
+for using sed command inside container
+```bash
+docker run --rm -it -v ${PWD}:/usr/src/app/ -w /usr/src/app/ ubuntu bash
+```
