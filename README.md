@@ -16,6 +16,11 @@ siege -c 100 example.com
 ```
 > default is 10
 
+one request from one user
+```bash
+siege -r 1 -c 1 example.com
+```
+
 update the concurrent users limit to 500
 ```bash
 sed -i 's/^limit.*/limit = 500/' siege.conf
