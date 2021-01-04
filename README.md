@@ -25,7 +25,7 @@ update the concurrent users limit to 1024
 ```bash
 sed -i 's/^limit.*/limit = 1024/' ~/.siege/siege.conf
 ```
-> file location: `~/.siege/siege.conf`
+> `cat ~/.siege/siege.conf | grep limit`
 
 for using sed command inside container
 ```bash
