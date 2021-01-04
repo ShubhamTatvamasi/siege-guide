@@ -21,9 +21,9 @@ one request from one user
 siege -r 1 -c 1 example.com
 ```
 
-update the concurrent users limit to 500
+update the concurrent users limit to 1024
 ```bash
-sed -i 's/^limit.*/limit = 500/' siege.conf
+sed -i 's/^limit.*/limit = 1024/' ~/.siege/siege.conf
 ```
 > file location: `~/.siege/siege.conf`
 
