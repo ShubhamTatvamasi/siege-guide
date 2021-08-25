@@ -3,6 +3,7 @@
 install siege
 ```bash
 brew install siege
+sudo apt install siege
 ```
 
 start load testing
